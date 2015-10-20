@@ -20,3 +20,7 @@ $ git reflog 查看操作记录
 
 $ git reset --hard HEAD^ 回退到上一个版本
 $ git reset --hard 3628164 回退到指定版本
+
+$ git checkout -- readme.txt 还原工作区
+
+$ git reset HEAD readme.txt 还原暂存区，然后使用checkout可以还原工作区
