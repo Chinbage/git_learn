@@ -28,3 +28,9 @@ $ git reset HEAD readme.txt 还原暂存区，然后使用checkout可以还原�
 
 $ git rm test.txt
 
+
+git remote
+
+$ git remote add origin git@github.com:michaelliao/learngit.git
+$ git push origin master
+
